@@ -1,0 +1,15 @@
+starting the commit phase for chosenPresident: m2
+[32mCommitting m2[0m
+[32mPresident is: m2[0m
+starting the commit phase for chosenPresident: m2
+[32mCommitting m2[0m
+[32mPresident is: m2[0m
+starting the commit phase for chosenPresident: m2
+[32mCommitting m2[0m
+[32mPresident is: m2[0m
+starting the commit phase for chosenPresident: m2
+[32mCommitting m2[0m
+[32mPresident is: m2[0m
+starting the commit phase for chosenPresident: m2
+[32mCommitting m2[0m
+[32mPresident is: m2[0m

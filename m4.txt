@@ -1,0 +1,136 @@
+starting on port 1025
+I am alive at port 1025
+I am alive at port 1025
+I am alive at port 1025
+I am alive at port 1025
+PREPARE 1
+1
+PREPARE 1
+promise was sent
+1
+reject was sent
+PREPARE 1
+1
+reject was sent
+PREPARE 2
+2
+promise was sent
+PREPARE 2
+2
+reject was sent
+ACCEPT-REQUEST 2 m3
+accept was sent
+ACCEPT-REQUEST 3 m1
+accept was sent
+PREPARE 3
+3
+reject was sent
+COMMIT m2
+President is: m2
+PREPARE 4
+4
+promise was sent
+ACCEPT-REQUEST 4 m2
+accept was sent
+COMMIT m2
+President is: m2
+COMMIT m2
+President is: m2
+I am alive at port 1025
+PREPARE 1
+1
+reject was sent
+I am alive at port 1025
+PREPARE 1
+1
+reject was sent
+I am alive at port 1025
+PREPARE 1
+1
+reject was sent
+PREPARE 5
+5
+promise was sent
+PREPARE 5
+5
+reject was sent
+PREPARE 5
+5
+reject was sent
+PREPARE 6
+6
+promise was sent
+ACCEPT-REQUEST 5 m1
+no message sent
+PREPARE 6
+6
+reject was sent
+ACCEPT-REQUEST 6 m2
+accept was sent
+COMMIT m2
+President is: m2
+PREPARE 7
+7
+promise was sent
+ACCEPT-REQUEST 7 m3
+accept was sent
+COMMIT m2
+President is: m2
+COMMIT m2
+President is: m2
+I am alive at port 1025
+PREPARE 1
+1
+reject was sent
+I am alive at port 1025
+PREPARE 1
+1
+reject was sent
+I am alive at port 1025
+PREPARE 1
+1
+reject was sent
+PREPARE 8
+8
+promise was sent
+PREPARE 8
+8
+reject was sent
+PREPARE 8
+8
+reject was sent
+PREPARE 9
+9
+promise was sent
+ACCEPT-REQUEST 9 m3
+accept was sent
+PREPARE 9
+9
+reject was sent
+ACCEPT-REQUEST 11 m1
+accept was sent
+COMMIT m2
+President is: m2
+PREPARE 10
+10
+reject was sent
+PREPARE 12
+12
+promise was sent
+ACCEPT-REQUEST 12 m2
+accept was sent
+COMMIT m2
+President is: m2
+COMMIT m2
+President is: m2
+I am alive at port 1025
+PREPARE 1
+1
+reject was sent
+PREPARE 13
+13
+promise was sent
+ACCEPT-REQUEST 14 m10
+accept was sent
+COMMIT m2
+President is: m2
