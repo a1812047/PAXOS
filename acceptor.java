@@ -1,4 +1,5 @@
 import java.io.BufferedReader;
+
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -57,6 +58,8 @@ public class acceptor implements Runnable{
                     if(chosenOne == null){
                         chosenOne = request.split(" ")[1];
                     }
+                    
+                    
                     System.out.println("President is: "+ chosenOne);
                     out.println("President is: "+ chosenOne);
                 }

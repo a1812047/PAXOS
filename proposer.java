@@ -41,7 +41,7 @@ public class proposer implements Runnable{
     private int tries = 3;
     color Color = new color();
     public static String F;
-    
+    public static File file ;
     
     proposer(String name, String hostname, int port){
         this.myName = name;
@@ -305,8 +305,12 @@ public class proposer implements Runnable{
                      //start the commit phase
                      System.out.println("starting the commit phase for chosenPresident: "+chosenPresident);
                      commitphase(chosenPresident);
+                     
+                     
                 }
             }
+            
+            
             
 
 
@@ -314,17 +318,23 @@ public class proposer implements Runnable{
             e.printStackTrace();
         }
     }
-    void commitphase(String value){
+    void commitphase(String value) throws IOException{
         try {
             out.println("COMMIT "+value);
             out.flush();
             System.out.println(Color.green+"Committing "+value+Color.reset);
             String printThis = in.readLine();
             System.out.println(Color.green+printThis+Color.reset);
+
         } catch (Exception e) {
             // TODO: handle exception
             System.err.println("COMMIT  pHASE failed");
             e.printStackTrace();
+        }finally{
+            file  = new File(myName+".txt");
+            FileWriter fileWriter = new FileWriter(file);
+            fileWriter.append("My President is: "+ value);
+            fileWriter.close();
         }
     }
 }
