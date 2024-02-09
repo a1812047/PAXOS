@@ -1,6 +1,4 @@
-ASSIGNMENT 3: PAXOS IMPLEMENTATION
-AUTHOR: VISHAL AGARWAL
-ID: a1812047
+
 
 To compile: 
 1. Download the files in a folder and start a terminal with pwd assigned to the directory where you download Assignment 3
